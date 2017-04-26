@@ -1,0 +1,133 @@
+/*Name: Theme site KoboldGames
+ *Theme URL; KoboldGames.com
+ *Auteur: Adrian Wahler
+ *DEscription:Theme CSS site web KoboldGames
+ *Version:1.0
+ *License:kobolds
+ *License URL:kobolds.com
+ *Text Domain: kobold
+ *
+ *Page de presentation de l'entreprise
+ *Page de presentation de nos partenaires
+ *Page de presentation des projets
+ *Page contact avec formulaire: Nom, Prenom, Entreprise, Sujet, Message et bouton d'envoi. Le premier champ doit etre autofocus. Tout les champs doivent etre requis.
+ *
+ */
+
+@font-face{
+        font-family: 'cantarell';
+        src:url(cantarell/Cantarell-Regular.ttf);
+}
+
+
+
+
+p.thick{
+    
+    font-weight: bold;
+    
+}
+h1{
+    
+    text-align: center;
+    
+}
+
+img{
+    float :left;
+    padding: 5px;
+    width : 300px;
+}
+body{
+    font-family: 'cantarell';
+    margin: 0px;
+    background-image: url(images/background.png);
+    background-attachment: fixed;
+    color: white;
+}
+
+a{
+    
+    color: white;
+    
+}
+
+a:hover{
+    
+    color:grey;
+    
+}
+
+a:active{
+    
+    color: #660000;
+    
+}
+nav{
+    background-color: black;
+    width: 100%;
+    color: white;
+    top:0;
+    position: fixed;
+}
+
+
+article{
+    border: solid;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    border-bottom-color: grey;
+    margin: 1px;
+}
+
+section{
+    
+        top: 2em;
+        background-color: black;
+        margin: auto;
+        margin-top: 2em;
+        width : 50%;
+        border: solid;
+        padding: 3em;
+        overflow: auto;
+        border-color: #b30000;
+        border-width: 1px;
+        font-size: 12px;
+ }
+ 
+ footer{
+    
+        font-size: 10px;
+        position: relative;
+        bottom: 0px;
+ }
+ 
+ /* FORM START */
+ 
+ fieldset{
+        
+        border : 1px solid #b30000;
+ }
+ 
+ input,textarea,select{
+        
+        display: inline-block;
+        float: left;
+        border: 1px solid white;
+        border-radius: 1px;
+        width: 200px;
+        box-shadow: 1px 1px 2px #C0C0C0 inset;
+        
+}
+
+label{
+        
+        display: inline-block;
+        float: left;
+        clear: left;
+        width: 7em;
+        text-align: right;
+        
+}
+
+/* FORM ENDS */
